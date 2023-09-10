@@ -132,7 +132,7 @@ header {
 }
 
 hr {
-    border: 5px solid #bab840;
+    border: 5px solid #5ca1e1;
     border-radius: 5px;
     width: 119px;
     position: relative;
@@ -141,9 +141,11 @@ hr {
 
 .about-text{
     color: #181816;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
 article {
@@ -166,6 +168,7 @@ button {
     cursor: pointer;
     margin: 36px;
     left: 500px;
+    bottom: 50px;
 }
 
 button{
