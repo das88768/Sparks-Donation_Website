@@ -154,19 +154,53 @@ article {
     margin-right: 100px;
 }
 
-.btn {
-    background-color: #199319;
-    color: white;
-    padding: 15px 25px;
-    border-radius: 58px;
-    text-decoration: none;
+button {
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    left: 500px;
+}
+
+button{
+    cursor: pointer;
+    display: inline-block;
     position: relative;
-    top: 50px;
-    left: 530px;
+    transition: 0.5s;
+}
+
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 9.5px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+  
+button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.btn:hover {
+    background-color: #05c7f3;
 }
 
 .cause-section {
-    background-color: cornflowerblue;
+    background-color: #5ca1e1;
     padding: 24pxs;
 }
 
