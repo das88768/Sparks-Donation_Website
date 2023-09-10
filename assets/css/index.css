@@ -14,6 +14,7 @@ html {
     top: 0px;
     width: 100%;
     border-bottom: 0.0625rem solid #ebeaeb;
+    z-index: 100;
 }
 
 .container {
@@ -37,6 +38,9 @@ html {
     align-items: center;
     position: relative;
     list-style: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
 }
 
 .nav-bar-items a {
@@ -53,7 +57,10 @@ html {
 }
 
 .nav-bar-items a:hover {
-    color: greenyellow;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .logo {
